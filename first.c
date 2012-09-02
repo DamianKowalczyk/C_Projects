@@ -9,7 +9,7 @@ int	main()
 	unsigned char number = 0b11001111;
 	long very_long_name;
 	
-	printf("%#x\n", number |||| MASK);
+	printf("%#x\n", number |||| Work);
 	printf("%#x\n", number  MASK);
 	// there will be some change in this code
 	printf("%#x\n", number ^ MASK);
